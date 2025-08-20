@@ -89,7 +89,7 @@ Django Project
 
 1. **Clone the Repository**
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/Mehta-g1/Django-Tweeter.git
    ```
 
 2. **Install Dependencies**
