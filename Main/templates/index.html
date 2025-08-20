@@ -1,0 +1,36 @@
+{% extends "layout2.html" %}
+{% load static %}
+
+
+{% block content %}
+<h2 class="text-center mt-4">Welcome to the Tweeter Home Page</h2>
+
+<div class="text-center mt-5 ">
+
+    <a href="/tweet/" class="btn btn-primary">Letest tweets</a>
+
+    <div class="card mx-auto mt-4" style="max-width: 400px;">
+        <img src="{% static 'images/photok.jpg' %}" alt="My Photo">
+
+        <div class="card-body">
+            <h5 class="card-title">Vikash Kuamr Mehta</h5>
+            <p class="card-text">
+                <strong>Email:</strong> vikashmehta@mail.com<br>
+                <strong>GitHub:</strong> <a href="https://github.com/mehta-g1" target="_blank">github.com/mehta-g1</a><br>
+                <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/mehta-g1" target="_blank">linkedin.com/in/mehta-g1</a>
+            </p>
+            <p class="card-text">
+                I am <strong>Vikash Kumar Mehta</strong>, a passionate and dedicated Computer Applications student at 
+                <strong>Meerut Institute of Technology</strong>, affiliated with <strong>CCSU</strong>.  
+                I have hands-on experience in <strong>Python, C, C++, HTML, CSS, JavaScript, Django, Flask, and MySQL</strong>.  
+                I have worked on real-world projects such as a <em>Bank Management System</em> in C and <em>FixMyCampus</em> web application for reporting campus issues.  
+                <br><br>
+                I hold certifications in <strong>Python Full Stack, AWS AI-ML Internship, ADCA, and MOA</strong>.  
+                With strong problem-solving skills and a deep interest in web development, I aim to build efficient, user-friendly, and scalable applications.  
+                I am highly motivated, disciplined, and eager to contribute to innovative projects while continuously learning and improving.  
+            </p>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

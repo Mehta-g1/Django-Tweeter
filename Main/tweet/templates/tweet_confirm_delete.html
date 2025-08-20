@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Twitter Home
+{% endblock %}
+
+{% block content %}
+<h2 class="text-center mt-4">Are you sure that you want to delete the tweet ?</h2>
+
+
+<form method="POST" class="form" >
+    {% csrf_token %}
+    <button class="btn btn-danger" >Delete</button>
+    <button class="btn btn-success" >Cencel</button>
+
+</form>
+{% endblock %}
